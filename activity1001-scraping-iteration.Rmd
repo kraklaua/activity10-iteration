@@ -1,6 +1,6 @@
 ---
 title: "Activity 10.1 - Iterating"
-author: "Name"
+author: "Alexa Kraklau"
 output: github_document
 ---
 
@@ -30,7 +30,13 @@ And, although it is structured (hierarchical/tree based), HTML data is often not
 However, it is not loaded with the tidyverse so you will need to load it separately.
 In the space below, load `{tidyverse}` and `{rvest}`.
 
+```{r load packages}
 
+install.packages("robotstxt")
+library(tidyverse)
+library(rvest)
+
+```
 
 The core functions that you may find useful are:
 
@@ -81,6 +87,7 @@ paths_allowed("http://www.facebook.com")
 
 Are you able to scrape data from TMDB or facebook?
 
+Data can be scraped from TMDB but cannot be scraped from Facebook.
 
 
 
